@@ -48,7 +48,7 @@ This tool does not "break authentication" by itself. It helps find differences b
 If you want to install the tool globally without cloning the repository or downloading any files manually, run this one-liner. It pulls the setup configuration, deploys the required asset payloads to your home directory, and installs the binary system-wide.
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/devploit/nomore403/main/Makefile | make -f - install
+curl -sSL https://raw.githubusercontent.com/R0X4R/nomore403/main/Makefile | make -f - install
 ```
 
 ### Local Build from Source
@@ -56,7 +56,7 @@ curl -sSL https://raw.githubusercontent.com/devploit/nomore403/main/Makefile | m
 Use this method if you want to inspect the source code, modify the project, or build a local executable binary inside your current working directory.
 
 ```bash
-git clone https://github.com/devploit/nomore403 && cd nomore403 && make build
+git clone https://github.com/R0X4R/nomore403 && cd nomore403 && make build
 ```
 
 ## Requirements

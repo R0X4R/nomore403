@@ -1,7 +1,7 @@
 .PHONY: install build
 
 TARGET_DIR = $(HOME)/.nomore403/payloads
-REPO_URL   = https://raw.githubusercontent.com/devploit/nomore403/main/payloads
+REPO_URL   = https://raw.githubusercontent.com/R0X4R/nomore403/main/payloads
 FILES      = endpaths headers httpmethods ips midpaths simpleheaders useragents
 
 # Dynamically resolve GOBIN using Go's environment variables.
@@ -20,7 +20,7 @@ install:
 		curl -sSL "$(REPO_URL)/$$file" -o "$(TARGET_DIR)/$$file"; \
 	done
 	@echo "[*] INSTALLING nomore403"
-	@go install github.com/devploit/nomore403@latest
+	@go install github.com/R0X4R/nomore403@latest
 	@echo "[+] SUCCESS! nomore403 IS INSTALLED."
 	@$(GOBIN)/nomore403 -h
 
