@@ -1,4 +1,4 @@
-module github.com/devploit/nomore403
+module github.com/R0X4R/nomore403
 
 go 1.24.0
 
